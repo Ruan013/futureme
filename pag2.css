@@ -1,0 +1,151 @@
+.parcerias {
+  height: 100vh;
+}
+.parcerias p {
+  margin-right: 7.6rem;
+}
+
+/*FEEDBACK*/
+
+.feedback {
+  width: 100%;
+  height: 100vh;
+}
+
+.feedback h1 {
+  padding-top: 2rem;
+  margin-left: 4rem;
+  color: var(--cor-letra-azul);
+  font-family: "Lora", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.feedback h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(138, 162, 252);
+  font-family: "Lora", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.caixafeed {
+  height: 25rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid blue;
+  border-radius: 15px;
+  color: rgb(22, 3, 109);
+}
+
+.caixafeed p {
+  margin-top: 5px;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+.box {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.top-feed {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+  position: relative;
+}
+
+.padrao {
+  width: 1.8rem;
+  height: 1.8rem;
+  position: absolute;
+  right: 8.9rem;
+  bottom: 2.1rem;
+}
+
+.padrao2 {
+  width: 1.8rem;
+  height: 1.8rem;
+  position: absolute;
+  right: 7.6rem;
+  bottom: 2.1rem;
+}
+
+.padrao3 {
+  width: 1.8rem;
+  height: 1.8rem;
+  position: absolute;
+  right: 8.3rem;
+  bottom: 2.1rem;
+}
+.p-feed {
+    margin-left: 2rem;
+}
+
+.estrelas p {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 1.5rem;
+}
+
+.estrela {
+  width: 1rem;
+  height: 1rem;
+}
+
+/*LOGO PARCEIROS*/
+
+.empresas-parcerias {
+  height: 100vh;
+  padding-top: 6rem;
+}
+
+.box-empresa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa-geral {
+  margin-top: 3rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.caixa-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  width: 22.5rem;
+  height: 10rem;
+  transition: transform 0.3s ease;
+  box-shadow: 2px 2px 4px lightgray;
+}
+
+.caixa-logo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border-color: rgb(184, 184, 255);
+}
+
+.logo-parceria {
+  width: 12rem;
+}
